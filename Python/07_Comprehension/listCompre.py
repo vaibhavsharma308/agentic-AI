@@ -24,3 +24,12 @@ print("Our Menu ", beverages_menu)
 
 tea_menu = [item for item in beverages_menu if "Tea" in item ]
 print("Our Tea Menu" , tea_menu)
+
+
+
+numbers = [1,2,3,4,5,6,7,8,9
+           ,10,12,15,16,128,1662,24,52,4]
+
+filterNumber = [x for x in numbers if x%3==0]
+print("Number after fileration")
+print(filterNumber)
