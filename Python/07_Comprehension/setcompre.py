@@ -14,7 +14,7 @@ student_marks = [
 
 maximum_marks = [ max(marks) for s_data in student_marks 
                  for marks in s_data.values() 
-                 
                  ]
-# maximum_marks = [max(marks) for s_data in student_marks for marks in s_data.values()]
 print(maximum_marks)
+
+
